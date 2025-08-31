@@ -95,6 +95,77 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 
 
 
+# Table of Contents
+
+- [Project Overview](#project-overview)
+- [AI Project Workflow](#ai-project-workflow)
+- [Installation and Requirements](#installation-and-requirements)
+- [Usage Examples](#usage-examples)
+- [Knowledge Discovery in Databases (KDD)](#knowledge-discovery-in-databases-kdd)
+- [Mathematical Concepts](#mathematical-concepts)
+- [Discrete vs Continuous Values](#discrete-vs-continuous-values)
+- [Primary Libraries and Tools](#primary-libraries-and-tools)
+- [Supervised vs Unsupervised Learning](#supervised-vs-unsupervised-learning)
+- [Clustering and Distance Calculations](#clustering-and-distance-calculations)
+- [Credit Analysis: Classification Example](#credit-analysis-classification-example)
+- [Fruit Clustering Example](#fruit-clustering-example)
+- [Anomaly Detection and Association Rules](#anomaly-detection-and-association-rules)
+- [Applications](#applications)
+- [Repository Structure and Documentation](#repository-structure-and-documentation)
+- [Contributing and License](#contributing-and-license)
+- [References](#references)
+
+***
+
+## Project Overview
+
+This project provides a comprehensive introduction to **Data Mining and AI**, based on the workbook from PUC-SP by Prof. Dr. Daniel Rodrigues da Silva. It covers:
+
+- Foundations of data mining and KDD
+- Relation between data, information, and knowledge concepts
+- Mathematical foundations (inflection points, maxima, minima)
+- Overview of supervised and unsupervised learning
+- Practical coding examples in Python and R
+- Real-world cases such as credit classification, fruit clustering, anomaly detection, and industrial applications
+
+***
+
+## AI Project Workflow
+
+Machine learning project development follows an iterative, structured process:
+
+```
++-----------------+      +---------------------+      +----------------------+
+|   Dataset/Data  | ---> |   Preprocessing     | ---> |   Cluster Training   |
++-----------------+      +---------------------+      +----------------------+
+                                |                          |
+                                v                          v
+                      +---------------------+      +----------------------+
+                      |  Cleaned/Labeled    |      |   Parallel Training  |
+                      |      Data           |      +----------------------+
+                      +---------------------+                |
+                                        |                    v
+                                        v          +----------------------+
+                                  +---------------------+ | Validation &   |
+                                  |     Validation      | |   Tuning       |
+                                  +---------------------+ +----------------+
+                                        |
+                                        v
+                               +---------------------+
+                               |   Trained Model     |
+                               +---------------------+
+                                        |
+                                        v
+                             +------------------------+
+                             | Inference in Production|
+                             +------------------------+
+                                        |
+                                        v
+                             +------------------------+
+                             | Feedback (New Data)    |
+                             +------------------------+
+```
+
 
 
 
