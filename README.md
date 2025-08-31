@@ -255,6 +255,86 @@ seaborn
 install.packages(c("tidyverse", "caret", "cluster"))
 ```
 
+<br><br>
+
+## [Usage Examples]()
+
+### [Python]() Clustering Example
+
+<br>
+
+```python
+import pandas as pd
+from sklearn.cluster import KMeans
+
+data = pd.DataFrame({'shape': [5, 4, 1, 2], 'color': [7, 8, 2, 1]})
+kmeans = KMeans(n_clusters=2, random_state=0).fit(data)
+data['cluster'] = kmeans.labels_
+print(data)
+```
+
+<br>
+
+### [Python]() Classification Example
+
+```python
+from sklearn.linear_model import LogisticRegression
+import pandas as pd
+
+df = pd.DataFrame({
+    'income': [2300, 4000, 1200, 6000],
+    'score': [600, 700, 550, 800],
+    'approved': [0, 1, 0, 1]
+})
+X = df[['income', 'score']]
+y = df['approved']
+model = LogisticRegression().fit(X, y)
+print(model.predict([[3000, 650]]))
+```
+
+<br>
+
+### [R]() Clustering Example
+
+```R
+fruit <- data.frame(shape=c(5,4,1,2), color=c(7,8,2,1))
+km <- kmeans(fruit, centers=2)
+print(km$cluster)
+```
+
+<br>
+
+### [R]() Classification Example
+
+```R
+data <- data.frame(income=c(2300,4000,1200,6000), score=c(600,700,550,800), approved=c(0,1,0,1))
+model <- glm(approved ~ income + score, data, family=binomial)
+predict(model, newdata=data.frame(income=3000, score=650), type="response")
+```
+
+
+<br><br>
+
+
+##[ Knowledge Discovery in Databases (KDD)]()
+
+KDD spans data selection, preprocessing, mining, and validation steps ensuring extracted knowledge is meaningful and valuable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
