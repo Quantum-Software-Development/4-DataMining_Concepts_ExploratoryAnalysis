@@ -119,7 +119,7 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 <br>
 
 
-## Project Overview
+## [Project Overview]()
 
 This project provides a comprehensive introduction to **Data Mining and AI**, based on the workbook from PUC-SP by Prof. Dr. Daniel Rodrigues da Silva. It covers:
 
@@ -130,9 +130,10 @@ This project provides a comprehensive introduction to **Data Mining and AI**, ba
 - Practical coding examples in Python and R
 - Real-world cases such as credit classification, fruit clustering, anomaly detection, and industrial applications
 
-<br>
 
-## AI/ML Project Workflow
+<br><br>
+
+## [AI/ML Project Workflow]()
 
 Machine learning project development follows an iterative, structured process:
 
@@ -177,9 +178,9 @@ Machine learning project development follows an iterative, structured process:
 
 ##[ Detailed AI Project Workflow Explanation]()
 
+<br>
 
-
-1. **Data Collection (Dataset)**
+1. [**Data Collection (Dataset)**]()
 Everything starts with collecting the dataset used for training.
 *Example:* 1 million images for a facial recognition model.
 
