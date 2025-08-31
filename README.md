@@ -138,6 +138,24 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 <br><br><br><br>
 
 
+<!-- ========================== [Bibliographr ====================  -->
+
+<br><br>
+
+
+## [Bibliography]()
+
+
+[1](). **Castro, L. N. & Ferrari, D. G.** (2016). *Introdução à mineração de dados: conceitos básicos, algoritmos e aplicações*. Saraiva.
+
+[2](). **Ferreira, A. C. P. L. et al.** (2024). *Inteligência Artificial - Uma Abordagem de Aprendizado de Máquina*. 2nd Ed. LTC.
+
+[3](). **Larson & Farber** (2015). *Estatística Aplicada*. Pearson.
+
+
+<br><br>
+
+
 <!-- ======================================= Start Footer ===========================================  -->
 
 
