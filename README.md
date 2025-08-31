@@ -115,7 +115,9 @@ https://github.com/user-attachments/assets/4ccd316b-74a1-4bae-9bc7-1c705be80498
 - [Contributing and License](#contributing-and-license)
 - [References](#references)
 
-***
+
+<br>
+
 
 ## Project Overview
 
@@ -128,11 +130,14 @@ This project provides a comprehensive introduction to **Data Mining and AI**, ba
 - Practical coding examples in Python and R
 - Real-world cases such as credit classification, fruit clustering, anomaly detection, and industrial applications
 
-***
+<br>
 
 ## AI Project Workflow
 
 Machine learning project development follows an iterative, structured process:
+
+<br><br>
+
 
 ```
 +-----------------+      +---------------------+      +----------------------+
@@ -167,7 +172,7 @@ Machine learning project development follows an iterative, structured process:
 ```
 
 
-
+<br><br>
 
 
 
