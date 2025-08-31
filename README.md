@@ -32,6 +32,12 @@ Professor:  [***Professor Doctor in Mathematics Daniel Rodrigues da Silva***](ht
 
 #
 
+<br><br>
+
+<!--Confidentiality statement -->
+
+#
+
 <br><br><br>
 
 > [!IMPORTANT]
@@ -39,9 +45,19 @@ Professor:  [***Professor Doctor in Mathematics Daniel Rodrigues da Silva***](ht
 > ⚠️ Heads Up
 >
 > * Projects and deliverables may be made [publicly available]() whenever possible.
-> * The course prioritizes [**hands-on practice**]() with real data in consulting scenarios.
+> * The course emphasizes [**practical, hands-on experience**]() with real datasets to simulate professional consulting scenarios in the fields of **Data Analysis and Data Mining** for partner organizations and institutions affiliated with the university.
 > * All activities comply with the [**academic and ethical guidelines of PUC-SP**]().
-> * [**Confidential information**]() from this repository remains private in [private repositories]().
+> * Any content not authorized for public disclosure will remain [**confidential**]() and securely stored in [private repositories]().  
 >
 
-<br><br><br>
+
+<br><br>
+
+#
+
+<!--END-->
+
+
+
+
+<br><br><br><br>
