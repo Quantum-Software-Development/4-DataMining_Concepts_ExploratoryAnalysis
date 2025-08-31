@@ -373,11 +373,11 @@ KDD spans data selection, preprocessing, mining, and validation steps ensuring e
 ## [Bibliography]()
 
 
-[1](). **Castro, L. N. & Ferrari, D. G.** (2016). *Introdução à mineração de dados: conceitos básicos, algoritmos e aplicações*. Saraiva.
+[1](). **Castro, L. No. And Ferrari, D. G.** (2016). *Introduction to data mining: basic concepts, algorithms and applications*. Saraiva.
 
-[2](). **Ferreira, A. C. P. L. et al.** (2024). *Inteligência Artificial - Uma Abordagem de Aprendizado de Máquina*. 2nd Ed. LTC.
+[2](). **Ferreira, A. C. P. L. et al.** (2024). *Artificial Intelligence - A Machine Learning Approach*. 2nd Ed. LTC
 
-[3](). **Larson & Farber** (2015). *Estatística Aplicada*. Pearson.
+[3](). **Larson and Farber** (2015). *Applied Statistics*. Pearson
 
 
 <br><br>
