@@ -135,9 +135,11 @@ This project provides a comprehensive introduction to **Data Mining and AI**, ba
 
 ## [AI/ML Project Workflow]()
 
+<br>
+
 Machine learning project development follows an iterative, structured process:
 
-<br><br>
+<br>
 
 
 ```
@@ -176,7 +178,7 @@ Machine learning project development follows an iterative, structured process:
 <br><br>
 
 
-##[ Detailed AI Project Workflow Explanation]()
+## [Detailed AI Project Workflow Explanation]()
 
 <br>
 
@@ -220,12 +222,38 @@ Collect new data to retrain and improve the model continually.
 *Example:* User data expands dataset for next training cycle.
 
 
-
 <br><br>
 
 
+## Installation and Requirements
+
+### [Python Setup]()
+
+```python
+pip install pandas numpy scikit-learn seaborn
+```
+
+<br>
+
+### Include `requirements.txt` for ease:
+
+<br>
+
+```python
+pandas
+numpy
+scikit-learn
+seaborn
+```
+
+<br>
 
 
+### R Setup
+
+```R
+install.packages(c("tidyverse", "caret", "cluster"))
+```
 
 
 
