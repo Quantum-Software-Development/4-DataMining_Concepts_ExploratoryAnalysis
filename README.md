@@ -346,22 +346,32 @@ print(f"Prediction for new client {new_client}: {'Approved' if prediction[^0] ==
 <br><br>
 
 
+```python
+# Cell 6: Visualizing Cluster Centers (Python code with comments)
 
+import matplotlib.pyplot as plt
 
+# Get cluster centers
+centers = kmeans.cluster_centers_
 
+# Plot data points colored by cluster
+plt.scatter(fruit_data['shape'], fruit_data['color'], c=fruit_data['cluster'], cmap='viridis')
 
+# Plot cluster centers as red 'X'
+plt.scatter(centers[:, 0], centers[:, 1], c='red', s=200, alpha=0.75, marker='X')
 
+# Set labels and title
+plt.xlabel("Shape")
+plt.ylabel("Color")
+plt.title("K-Means Clustering with Centroids")
 
-
-
-
-
-
-
-
-
+# Show plot
+plt.show()
+```
 
 <!--
+==============================Basic Example ===================================
+
 ```python
 import pandas as pd
 from sklearn.cluster import KMeans
@@ -389,9 +399,11 @@ X = df[['income', 'score']]
 y = df['approved']
 model = LogisticRegression().fit(X, y)
 print(model.predict([[3000, 650]]))
-```
+``
 
-<br>
+--->`
+
+<br><br>
 
 ### [R]() Clustering Example
 
@@ -411,7 +423,7 @@ model <- glm(approved ~ income + score, data, family=binomial)
 predict(model, newdata=data.frame(income=3000, score=650), type="response")
 ```
 
---->
+
 
 <br><br>
 
