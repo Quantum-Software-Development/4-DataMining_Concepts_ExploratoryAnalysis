@@ -432,7 +432,7 @@ d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
 
 > [!IMPORTANT]
 > 
-> * Objects assigned to clusters with nearest centroid.
+> * Objects assigned to ***Clusters with nearest Centroid.***
 >
 
 <br><br>
