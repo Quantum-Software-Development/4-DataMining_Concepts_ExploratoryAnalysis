@@ -224,8 +224,15 @@ Collect new data to retrain and improve the model continually.
 
 <br><br>
 
+> [!TIP]
+>
+> This Repository offers a complete, clear, and accessible guide for learners and practitioners working on data mining and AI projects.
+>
 
-## Installation and Requirements
+<br><br>
+
+
+## [Installation and Requirements]()
 
 ### [Python Setup]()
 
@@ -239,7 +246,7 @@ pip install pandas numpy scikit-learn seaborn
 
 ### Include `requirements.txt` for ease:
 
-<br><br>
+<br>
 
 ```python
 pandas
@@ -251,7 +258,9 @@ seaborn
 <br><br>
 
 
-### R Setup
+### [R Setup]()
+
+<br>
 
 ```R
 install.packages(c("tidyverse", "caret", "cluster"))
@@ -267,9 +276,9 @@ install.packages(c("tidyverse", "caret", "cluster"))
 <br><br>
 
 
-```python
-# Cell 3: Creating a Sample Dataset (Python code with comments)
+### [Cell 3](): Creating a Sample Dataset (Python code with comments)
 
+```python
 # Import pandas for data manipulation
 import pandas as pd
 
@@ -285,11 +294,14 @@ print("Sample Dataset:")
 print(data)
 ```
 
-<br><br>
+<br>
+
+
+### [Cell 4](): K-Means Clustering Example (Python code with comments)
+
+<br>
 
 ```python
-# Cell 4: K-Means Clustering Example (Python code with comments)
-
 from sklearn.cluster import KMeans
 
 # Sample data with two features: shape and color
@@ -309,12 +321,15 @@ print("Clustered Data:")
 print(fruit_data)
 ```
 
-<br><br>
+
+<br>
+
+### [Cell 5](): Logistic Regression for Credit Approval (Python code with comments)
+
+<br>
 
 
 ```python
-# Cell 5: Logistic Regression for Credit Approval (Python code with comments)
-
 from sklearn.linear_model import LogisticRegression
 
 # Sample credit data: income, score, and approval status
@@ -343,12 +358,14 @@ print(f"Prediction for new client {new_client}: {'Approved' if prediction[^0] ==
 ```
 
 
-<br><br>
+<br>
+
+### [Cell 6](): Visualizing Cluster Centers (Python code with comments)
+
+<br>
 
 
 ```python
-# Cell 6: Visualizing Cluster Centers (Python code with comments)
-
 import matplotlib.pyplot as plt
 
 # Get cluster centers
