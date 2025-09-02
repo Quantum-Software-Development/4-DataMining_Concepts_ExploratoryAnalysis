@@ -336,6 +336,20 @@ KDD spans data selection, preprocessing, mining, and validation steps ensuring e
 <br><br>
 
 
+## [Discrete vs Continuous Values]()
+
+<br>
+
+| [Type]() | [Example]() |
+| :-- | :-- |
+| Discrete | Loan approved: Yes/No |
+| Continuous | Loan amount: \$1000 to \$10,000+ |
+
+
+<br><br>
+
+
+
 
 
 
