@@ -229,15 +229,17 @@ Collect new data to retrain and improve the model continually.
 
 ### [Python Setup]()
 
+<br><br>
+
 ```python
 pip install pandas numpy scikit-learn seaborn
 ```
 
-<br>
+<br><br>
 
 ### Include `requirements.txt` for ease:
 
-<br>
+<br><br>
 
 ```python
 pandas
@@ -246,7 +248,7 @@ scikit-learn
 seaborn
 ```
 
-<br>
+<br><br>
 
 
 ### R Setup
@@ -262,7 +264,7 @@ install.packages(c("tidyverse", "caret", "cluster"))
 ### [Python]() Clustering Example
 
 
-<br>
+<br><br>
 
 
 ```python
@@ -283,7 +285,7 @@ print("Sample Dataset:")
 print(data)
 ```
 
-<br>
+<br><br>
 
 ```python
 # Cell 4: K-Means Clustering Example (Python code with comments)
@@ -307,7 +309,7 @@ print("Clustered Data:")
 print(fruit_data)
 ```
 
-<br>
+<br><br>
 
 
 ```python
@@ -341,7 +343,7 @@ print(f"Prediction for new client {new_client}: {'Approved' if prediction[^0] ==
 ```
 
 
-<br>
+<br><br>
 
 
 
