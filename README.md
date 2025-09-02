@@ -382,16 +382,83 @@ KDD spans data selection, preprocessing, mining, and validation steps ensuring e
 
 | [Name]() | [Use]() | [Language]() |
 | :-- | :-- | :-- |
-| pandas | Data manipulation | Python |
-| NumPy | Numerical computations | Python |
-| seaborn | Data visualization | Python |
-| scikit-learn | Machine learning algorithms | Python |
-| tidyverse | Data wrangling and plotting | R |
-| caret | Machine learning in R | R |
+| [pandas]() | Data manipulation | Python |
+| [NumPy]() | Numerical computations | Python |
+| [seaborn]() | Data visualization | Python |
+| [scikit-learn]() | Machine learning algorithms | Python |
+| [tidyverse]() | Data wrangling and plotting | R |
+| [caret]() | Machine learning in R | R |
 
 
 
 <br><br>
+
+
+## [Supervised vs Unsupervised Learning]()
+
+
+<br>
+
+| [Type]() | [Known Labels]() | [Purpose]() | [Algorithms]() |
+| :-- | :-- | :-- | :-- |
+| Supervised | Yes | Predict labels/values | Logistic Regression, SVM, Decision Trees |
+| Unsupervised | No | Discover patterns or clusters | K-Means, Hierarchical Clustering, DBSCAN |
+
+
+
+<br><br>
+
+## [Clustering and Distance Calculations]()
+
+<br>
+
+Clusters group similar data by minimizing intra-cluster distances. Euclidean distance calculated as:
+
+<br>
+
+$$
+d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
+$$
+
+
+<br>
+
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
