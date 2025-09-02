@@ -581,69 +581,27 @@ Attributes like shape and color are used to cluster fruits into categories with 
 
 [-]() Web: sentiment analysis, customer segmentation
 
+
 <br><br>
 
 
 
+## [Contributing and License]()
+
+-]() Contributions welcome via pull requests
+
+-]() See `CONTRIBUTING.md` for details
+
+[-]() Licensed under the MIT License
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
-<br><br><br><br>
+<br><br>
 
 
 <!-- ========================== [Bibliographr ====================  -->
 
-<br><br>
-
-
 ## [Bibliography]()
+
 
 
 [1](). **Castro, L. No. And Ferrari, D. G.** (2016). *Introduction to data mining: basic concepts, algorithms and applications*. Saraiva.
