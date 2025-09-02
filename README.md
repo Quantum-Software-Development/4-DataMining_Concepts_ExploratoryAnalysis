@@ -349,6 +349,18 @@ KDD spans data selection, preprocessing, mining, and validation steps ensuring e
 <br><br>
 
 
+## [Mathematical Concepts]()
+
+<br>
+
+| [Concept]() | [Description]() | [Formula]() |
+| :-- | :-- | :-- |
+| Inflection | Point where curvature changes sign | $f''(x_0) = 0$, concavity change |
+| Maximum | Local peak where $f'(x_0)=0$, $f''(x_0)<0$ |  |
+| Minimum | Local trough where $f'(x_0)=0$, $f''(x_0)>0$ |  |
+
+
+<br><br>
 
 
 
