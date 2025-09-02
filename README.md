@@ -316,14 +316,24 @@ predict(model, newdata=data.frame(income=3000, score=650), type="response")
 <br><br>
 
 
-##[ Knowledge Discovery in Databases (KDD)]()
+##  Knowledge Discovery in Databases (KDD)]()
 
 KDD spans data selection, preprocessing, mining, and validation steps ensuring extracted knowledge is meaningful and valuable.
 
+<br>
+
+## [Mathematical Concepts]()
+
+<br>
+
+| [Concept]() | [Description]() | [Formula]() |
+| :-- | :-- | :-- |
+| Inflection | Point where curvature changes sign | $f''(x_0) = 0$, concavity change |
+| Maximum | Local peak where $f'(x_0)=0$, $f''(x_0)<0$ |  |
+| Minimum | Local trough where $f'(x_0)=0$, $f''(x_0)>0$ |  |
 
 
-
-
+<br><br>
 
 
 
