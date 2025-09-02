@@ -414,14 +414,14 @@ KDD spans data selection, preprocessing, mining, and validation steps ensuring e
 
 Clusters group similar data by minimizing intra-cluster distances. Euclidean distance calculated as:
 
-<br>
+<br><br>
 
 $$
 \Huge
 d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
 $$
 
-<br>
+<br><br>
 
 ```latex
 \Huge
@@ -429,6 +429,44 @@ d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
 ```
 
 <br>
+
+> [!IMPORTANT]
+> 
+> * Objects assigned to clusters with nearest centroid.
+>
+
+<br><br>
+
+
+## [Credit Analysis: Classification Example]()
+
+Predict if credit will be approved based on income and score data.
+
+<br><br>
+
+## [Fruit Clustering Example]()
+
+Attributes like shape and color are used to cluster fruits into categories with K-means.
+
+<br><br>
+
+## [Anomaly Detection and Association Rules]()
+
+[-]() Detect rare, irregular events (fraud, anomalies) statistically or by distance metrics.
+
+[-]() Association rules discover frequently co-occurring attributes (e.g., smartphone buyers often subscribe to data plans).
+
+
+<br><br>
+
+## [Applications]()
+
+[-]() Finance: fraud detection, credit scoring
+[-]() Energy: load forecasting, loss reduction
+[- ]()Agriculture: crop yield prediction
+[-]() Web: sentiment analysis, customer segmentation
+
+<br><br>
 
 
 
