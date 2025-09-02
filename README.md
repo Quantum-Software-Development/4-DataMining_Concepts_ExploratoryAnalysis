@@ -272,16 +272,27 @@ install.packages(c("tidyverse", "caret", "cluster"))
 
 ### [Python]() Clustering Example
 
+<br>
 
-### [Cell 1]():  Cluster KMeans  
+### [Cell 1](): KMeans Clustering Algorithm Example with Two Clusters for Data Segmentation 
+
+<br>
 
 ```python
+# Example of clustering data using KMeans to segment into two clusters
 import pandas as pd
 from sklearn.cluster import KMeans
 
+# Creating a DataFrame with two features
 data = pd.DataFrame({'shape': [5, 4, 1, 2], 'color': [7, 8, 2, 1]})
+
+# Initializing KMeans with 2 clusters and fitting to the data
 kmeans = KMeans(n_clusters=2, random_state=0).fit(data)
+
+# Adding a 'cluster' column indicating the cluster assignment for each point
 data['cluster'] = kmeans.labels_
+
+# Printing the data with the cluster labels
 print(data)
 ```
 
