@@ -417,13 +417,16 @@ Clusters group similar data by minimizing intra-cluster distances. Euclidean dis
 <br>
 
 $$
+\Huge
 d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
 $$
 
-
 <br>
 
-
+```latex
+\Huge
+d(\mathbf{x}, \mathbf{y}) = \sqrt{\sum_{i=1}^n (x_i - y_i)^2}
+```
 
 <br>
 
