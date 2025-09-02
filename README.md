@@ -615,14 +615,11 @@ Attributes like shape and color are used to cluster fruits into categories with 
 
 
 
-## [Contributing and License]()
+## [Contributing]()
 
 -]() Contributions welcome via pull requests
 
 -]() See `CONTRIBUTING.md` for details
-
-[-]() Licensed under the MIT License
-
 
 <br><br>
 
