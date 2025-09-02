@@ -261,8 +261,38 @@ install.packages(c("tidyverse", "caret", "cluster"))
 
 ### [Python]() Clustering Example
 
+
 <br>
 
+
+```python
+# Cell 3: Creating a Sample Dataset (Python code with comments)
+
+# Import pandas for data manipulation
+import pandas as pd
+
+# Create a simple dataset with categorical and numerical data
+data = pd.DataFrame({
+    'age': [25, 30, 22, 40],         # Age in years
+    'height': [186, 164, 175, 180],  # Height in cm
+    'gender': ['male', 'female', 'male', 'female']  # Gender category
+})
+
+# Display the dataset
+print("Sample Dataset:")
+print(data)
+```
+
+<br>
+
+
+
+
+
+
+
+
+<!--
 ```python
 import pandas as pd
 from sklearn.cluster import KMeans
@@ -312,6 +342,7 @@ model <- glm(approved ~ income + score, data, family=binomial)
 predict(model, newdata=data.frame(income=3000, score=650), type="response")
 ```
 
+--->
 
 <br><br>
 
