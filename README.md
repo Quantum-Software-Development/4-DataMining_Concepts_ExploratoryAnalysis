@@ -366,7 +366,7 @@ KDD spans data selection, preprocessing, mining, and validation steps ensuring e
 
 <br>
 
-| [Type() | [Example() |
+| [Type() | [Example]() |
 | :-- | :-- |
 | Discrete | Loan approved: Yes/No |
 | Continuous | Loan amount: \$1000 to \$10,000+ |
@@ -375,21 +375,23 @@ KDD spans data selection, preprocessing, mining, and validation steps ensuring e
 <br><br>
 
 
+# [Primary Libraries and Tools]()
+
+
+<br>
+
+| [Name]() | [Use]() | [Language]() |
+| :-- | :-- | :-- |
+| pandas | Data manipulation | Python |
+| NumPy | Numerical computations | Python |
+| seaborn | Data visualization | Python |
+| scikit-learn | Machine learning algorithms | Python |
+| tidyverse | Data wrangling and plotting | R |
+| caret | Machine learning in R | R |
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<br><br>
 
 
 
