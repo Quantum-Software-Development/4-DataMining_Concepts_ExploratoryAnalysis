@@ -273,10 +273,44 @@ install.packages(c("tidyverse", "caret", "cluster"))
 ### [Python]() Clustering Example
 
 
-<br><br>
+### [Cell 1]():  Cluster KMeans  
+
+```python
+import pandas as pd
+from sklearn.cluster import KMeans
+
+data = pd.DataFrame({'shape': [5, 4, 1, 2], 'color': [7, 8, 2, 1]})
+kmeans = KMeans(n_clusters=2, random_state=0).fit(data)
+data['cluster'] = kmeans.labels_
+print(data)
+```
+
+<br>
+
+### [Cell 2](): Classification Example
+
+```python
+from sklearn.linear_model import LogisticRegression
+import pandas as pd
+
+df = pd.DataFrame({
+    'income': [2300, 4000, 1200, 6000],
+    'score': [600, 700, 550, 800],
+    'approved': [0, 1, 0, 1]
+})
+X = df[['income', 'score']]
+y = df['approved']
+model = LogisticRegression().fit(X, y)
+print(model.predict([[3000, 650]]))
+```
+
+
+<br>
 
 
 ### [Cell 3](): Creating a Sample Dataset (Python code with comments)
+
+<br>
 
 ```python
 # Import pandas for data manipulation
@@ -386,39 +420,6 @@ plt.title("K-Means Clustering with Centroids")
 plt.show()
 ```
 
-<!--
-==============================Basic Example ===================================
-
-```python
-import pandas as pd
-from sklearn.cluster import KMeans
-
-data = pd.DataFrame({'shape': [5, 4, 1, 2], 'color': [7, 8, 2, 1]})
-kmeans = KMeans(n_clusters=2, random_state=0).fit(data)
-data['cluster'] = kmeans.labels_
-print(data)
-```
-
-<br>
-
-### [Python]() Classification Example
-
-```python
-from sklearn.linear_model import LogisticRegression
-import pandas as pd
-
-df = pd.DataFrame({
-    'income': [2300, 4000, 1200, 6000],
-    'score': [600, 700, 550, 800],
-    'approved': [0, 1, 0, 1]
-})
-X = df[['income', 'score']]
-y = df['approved']
-model = LogisticRegression().fit(X, y)
-print(model.predict([[3000, 650]]))
-``
-
---->`
 
 <br><br>
 
