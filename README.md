@@ -462,8 +462,11 @@ Attributes like shape and color are used to cluster fruits into categories with 
 ## [Applications]()
 
 [-]() Finance: fraud detection, credit scoring
+
 [-]() Energy: load forecasting, loss reduction
+
 [- ]()Agriculture: crop yield prediction
+
 [-]() Web: sentiment analysis, customer segmentation
 
 <br><br>
