@@ -285,6 +285,73 @@ print(data)
 
 <br>
 
+```python
+# Cell 4: K-Means Clustering Example (Python code with comments)
+
+from sklearn.cluster import KMeans
+
+# Sample data with two features: shape and color
+fruit_data = pd.DataFrame({
+    'shape': [5, 4, 1, 2],
+    'color': [7, 8, 2, 1],
+})
+
+# Create K-Means model with 2 clusters and fixed random state
+kmeans = KMeans(n_clusters=2, random_state=42).fit(fruit_data)
+
+# Assign cluster labels to data points
+fruit_data['cluster'] = kmeans.labels_
+
+# Show clustered data
+print("Clustered Data:")
+print(fruit_data)
+```
+
+<br>
+
+
+```python
+# Cell 5: Logistic Regression for Credit Approval (Python code with comments)
+
+from sklearn.linear_model import LogisticRegression
+
+# Sample credit data: income, score, and approval status
+credit_data = pd.DataFrame({
+    'income': [2300, 4000, 1200, 6000],
+    'score': [600, 700, 550, 800],
+    'approved': [0, 1, 0, 1]  # 0 - Denied, 1 - Approved
+})
+
+# Features and target variable
+X = credit_data[['income', 'score']]
+y = credit_data['approved']
+
+# Build logistic regression model
+model = LogisticRegression()
+
+# Train the model
+model.fit(X, y)
+
+# Predict credit approval for a new client
+new_client = [[3000, 650]]
+prediction = model.predict(new_client)
+
+# Print prediction result
+print(f"Prediction for new client {new_client}: {'Approved' if prediction[^0] == 1 else 'Denied'}")
+```
+
+
+<br>
+
+
+
+
+
+
+
+
+
+
 
 
 
